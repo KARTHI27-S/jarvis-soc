@@ -16,27 +16,25 @@
 
 ---
 
-🧰 Installation
+## ⚙️ Installation
 
-1️⃣ Clone the Repository
-
+### 1. Clone Repository  
 git clone https://github.com/KARTHI27-S/jarvis-soc.git
 
-2️⃣ Navigate to Project Directory
+### 2. Navigate
+cd jarvis-soc  
 
-cd jarvis-soc
+### 3. Create Virtual Environment
+python3 -m venv venv  
 
-3️⃣ Install Dependencies
+### 4. Activate Environment
+source venv/bin/activate  
 
-pip install -r requirements.txt
+### 5. Install Dependencies
+pip install -r requirements.txt  
 
-4️⃣ Run the Tool
-
-python jarvis.py
-
-«⚠️ Use "sudo" if required for system-level commands:»
-
-sudo python3 jarvis.py
+### 6. Run Tool
+sudo python jarvis.py  
 
 ---
 
