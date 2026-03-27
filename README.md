@@ -140,7 +140,8 @@ Not intended for production deployment.
 👨‍💻 Author
 
 Karthi
-Cybersecurity Student
+Cybersecurity Student | Python Developer
+Interested in SOC operations, Linux Security
 
 ---
 
