@@ -88,10 +88,21 @@ Detection → Investigation → Correlation → Alerting
 
 🛠️ Installation
 
+1️⃣ Clone the Repository
+
 git clone https://github.com/KARTHI27-S/jarvis-soc.git
+
+2️⃣ Navigate to Project Directory
+
 cd jarvis-soc
+
+3️⃣ Install Required Dependencies
+
 pip install -r requirements.txt
-python main.py
+
+4️⃣ Run the Application
+
+sudo python jarvis.py
 
 ---
 
