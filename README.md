@@ -1,6 +1,6 @@
 🛡️ JARVIS SOC Tool (v2)
 
-«A terminal-based Security Operations Center (SOC) simulation tool built for real-time system monitoring, threat detection, and incident analysis.»
+> 🚀 A CLI-based SOC analysis tool simulating real-world security monitoring workflows.
 
 ---
 
@@ -64,6 +64,19 @@ sudo python3 jarvis.py
 
 ---
 
+## 📸 Screenshots
+
+<img width="1920" height="1080" alt="Screenshot_2026-03-27_14-44-16" src="https://github.com/user-attachments/assets/0231f3b1-85b0-4b2a-8352-c49163e03a33" />
+
+
+### 🌐 Network Analysis
+<img width="1920" height="1080" alt="Screenshot_2026-03-27_14-47-52" src="https://github.com/user-attachments/assets/04668323-d754-4375-bbb9-fdb9660e0c8e" />
+
+
+---
+
+---
+
 🧠 SOC Workflow (How It Works)
 
 1. Monitor logs
@@ -77,10 +90,10 @@ sudo python3 jarvis.py
 
 🧪 Example Output
 
-SECURITY ALERT
-Type      : Suspicious Activity
-Severity  : HIGH
-Source    : SSH Logs
+SECURITY ALERT  
+Type      : Suspicious Activity  
+Severity  : HIGH  
+Source    : SSH Logs  
 
 ---
 
@@ -98,7 +111,7 @@ Source    : SSH Logs
 
 Karthikeyan S  
 Cybersecurity Student | Python Developer  
-Interested in SOC Operations, Linux Security  
+Interested in SOC Operations & Linux Security  
 
 ---
 
