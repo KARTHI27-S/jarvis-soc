@@ -1,92 +1,22 @@
-🚨 JARVIS-SOC v2.0
+🛡️ JARVIS SOC Tool (v2)
 
-CLI-Based Security Operations Center (SOC) Workflow Engine
-
----
-
-🧠 Overview
-
-JARVIS-SOC is a command-line based security analysis tool that simulates a real Security Operations Center (SOC) workflow.
-
-It is designed to detect, investigate, and analyze system-level threats using real-time logs and system data.
-
-This project demonstrates how SOC analysts:
-
-- Monitor system activity
-- Detect threats
-- Investigate incidents
-- Correlate events
-- Generate alerts
+«A terminal-based Security Operations Center (SOC) simulation tool built for real-time system monitoring, threat detection, and incident analysis.»
 
 ---
 
-⚙️ Key Features
+🚀 Features
 
-🔍 Detection
-
-- SSH brute-force attack detection
-- Suspicious process identification
-- Network connection analysis
-
-🧪 Investigation
-
-- Incident timeline reconstruction
-- Active network connection inspection
-- Process-level analysis
-
-🧠 Correlation
-
-- Multi-source threat evaluation
-- System-wide threat scoring engine
-
-🚨 Alerting
-
-- Structured SOC alert generation
-- Severity classification (LOW / MEDIUM / HIGH)
+- 🔍 Brute-force attack detection (SSH logs)
+- 📊 Incident timeline reconstruction
+- 🌐 Active network connection analysis
+- ⚙️ Suspicious process detection
+- 📈 System threat scoring
+- 🚨 Security alert simulation
+- 🧠 SOC-style workflow (end-to-end analysis)
 
 ---
 
-📌 Available Commands
-
-No| Command| Description
-1| dashboard| System monitoring panel
-2| net-info| Show network information
-3| process-check| Investigate running processes
-4| port-scan| Scan open ports
-5| log-check| Analyze authentication logs
-6| hash-file| Generate file hash
-7| password-gen| Generate strong password
-8| monitor| Start real-time monitoring
-9| test-alert| Trigger SOC security alert
-10| menu| Show command menu
-11| ip-reputation| Check IP threat intelligence
-12| generate-report| Generate SOC incident report
-13| detect-bruteforce| Detect brute-force login attempts
-14| incident-timeline| Reconstruct event timeline
-15| net-connections| Analyze active network connections
-16| detect-suspicious| Detect abnormal processes
-17| threat-score| Calculate system threat level
-18| exit| Exit JARVIS
-
----
-
-🔄 SOC Workflow Model
-
-JARVIS-SOC follows a structured SOC pipeline:
-
-Detection → Investigation → Correlation → Alerting
-
----
-
-🖥️ Screenshots
-<img width="1920" height="1080" alt="Screenshot_2026-03-27_14-44-16" src="https://github.com/user-attachments/assets/ad00256e-cd84-4993-967a-3d2c57f39fa8" />
-<img width="1920" height="1080" alt="Screenshot_2026-03-27_14-47-52" src="https://github.com/user-attachments/assets/48a6bb78-ce0e-42a5-b1de-edce92960e79" />
-
-
-
----
-
-🛠️ Installation
+🧰 Installation
 
 1️⃣ Clone the Repository
 
@@ -96,38 +26,65 @@ git clone https://github.com/KARTHI27-S/jarvis-soc.git
 
 cd jarvis-soc
 
-3️⃣ Install Required Dependencies
+3️⃣ Install Dependencies
 
 pip install -r requirements.txt
 
-4️⃣ Run the Application
+4️⃣ Run the Tool
 
-sudo python jarvis.py
+python jarvis.py
 
----
+«⚠️ Use "sudo" if required for system-level commands:»
 
-📦 Requirements
-
-- Python 3.x
-- Linux environment (Kali Linux recommended)
-- "journalctl" access (for SSH logs)
-- "ss" command (network analysis)
+sudo python3 jarvis.py
 
 ---
 
-⚠️ Disclaimer
+🖥️ Available Commands
 
-This tool is intended for:
-
-- Educational purposes
-- Security research
-- SOC workflow simulation
-
-Not intended for production deployment.
+#| Command| Description
+1| dashboard| System monitoring panel
+2| net-info| Show network information
+3| process-check| Investigate running processes
+4| port-scan| Scan open ports
+5| log-check| Analyze authentication logs
+6| hash-file| Generate file hash
+7| password-gen| Generate strong password
+8| monitor| Start real-time monitoring
+9| test-alert| Trigger security alert
+10| menu| Show menu
+11| ip-reputation| Check IP threat intelligence
+12| generate-report| Generate SOC report
+13| detect-bruteforce| Detect SSH brute-force attacks
+14| incident-timeline| Reconstruct attack timeline
+15| net-connections| Analyze active connections
+16| detect-suspicious| Detect abnormal processes
+17| threat-score| Calculate system threat level
+18| exit| Exit tool
 
 ---
 
-🚀 Future Improvements (v3 Roadmap)
+🧠 SOC Workflow (How It Works)
+
+1. Monitor logs
+2. Detect suspicious activity
+3. Analyze processes & network
+4. Build incident timeline
+5. Calculate threat score
+6. Generate report
+
+---
+
+🧪 Example Output
+
+SECURITY ALERT
+Type      : Suspicious Activity
+Severity  : HIGH
+Source    : SSH Logs
+
+---
+
+🚧 Future Improvements (v3 Roadmap)
 
 - Real-time log streaming
 - Persistent incident storage
@@ -137,11 +94,11 @@ Not intended for production deployment.
 
 ---
 
-👨‍💻 Author
+👤 Author
 
-Karthikeyan S  
-Cybersecurity Student | Python Developer  
-Interested in SOC operations, Linux Security  
+Karthikeyan S
+Cybersecurity Student | Python Developer
+Interested in SOC Operations, Linux Security
 
 ---
 
