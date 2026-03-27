@@ -139,7 +139,7 @@ Not intended for production deployment.
 
 👨‍💻 Author
 
-Karthi
+Karthikeyan S 
 Cybersecurity Student | Python Developer
 Interested in SOC operations, Linux Security
 
