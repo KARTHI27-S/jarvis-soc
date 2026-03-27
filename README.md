@@ -42,25 +42,25 @@ sudo python3 jarvis.py
 
 🖥️ Available Commands
 
-#| Command| Description
-1| dashboard| System monitoring panel
-2| net-info| Show network information
-3| process-check| Investigate running processes
-4| port-scan| Scan open ports
-5| log-check| Analyze authentication logs
-6| hash-file| Generate file hash
-7| password-gen| Generate strong password
-8| monitor| Start real-time monitoring
-9| test-alert| Trigger security alert
-10| menu| Show menu
-11| ip-reputation| Check IP threat intelligence
-12| generate-report| Generate SOC report
-13| detect-bruteforce| Detect SSH brute-force attacks
-14| incident-timeline| Reconstruct attack timeline
-15| net-connections| Analyze active connections
-16| detect-suspicious| Detect abnormal processes
-17| threat-score| Calculate system threat level
-18| exit| Exit tool
+#| Command| Description  
+1| dashboard| System monitoring panel  
+2| net-info| Show network information  
+3| process-check| Investigate running processes  
+4| port-scan| Scan open ports  
+5| log-check| Analyze authentication logs  
+6| hash-file| Generate file hash  
+7| password-gen| Generate strong password  
+8| monitor| Start real-time monitoring  
+9| test-alert| Trigger security alert  
+10| menu| Show menu  
+11| ip-reputation| Check IP threat intelligence  
+12| generate-report| Generate SOC report  
+13| detect-bruteforce| Detect SSH brute-force attacks  
+14| incident-timeline| Reconstruct attack timeline  
+15| net-connections| Analyze active connections  
+16| detect-suspicious| Detect abnormal processes  
+17| threat-score| Calculate system threat level  
+18| exit| Exit tool  
 
 ---
 
@@ -96,9 +96,9 @@ Source    : SSH Logs
 
 👤 Author
 
-Karthikeyan S
-Cybersecurity Student | Python Developer
-Interested in SOC Operations, Linux Security
+Karthikeyan S  
+Cybersecurity Student | Python Developer  
+Interested in SOC Operations, Linux Security  
 
 ---
 
