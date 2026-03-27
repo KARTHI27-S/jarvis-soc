@@ -139,9 +139,9 @@ Not intended for production deployment.
 
 👨‍💻 Author
 
-Karthikeyan S 
-Cybersecurity Student | Python Developer
-Interested in SOC operations, Linux Security
+Karthikeyan S  
+Cybersecurity Student | Python Developer  
+Interested in SOC operations, Linux Security  
 
 ---
 
